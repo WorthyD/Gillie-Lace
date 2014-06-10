@@ -1,0 +1,90 @@
+/*
+    Functions
+*/
+
+// Row
+//
+// Rows contain and clear the floats of your columns.
+
+.row {
+    .clearfix;
+}
+
+.col {
+    position: relative;
+    // Prevent columns from collapsing when empty
+    min-height: 1px;
+    // Inner gutter via padding
+    padding-left: (@grid-gutter-width / 2);
+    padding-right: (@grid-gutter-width / 2);
+}
+
+.make-grid-columns-float(xs);
+.make-grid(@grid-columns, xs, width);
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+    .responsive-invisibility();
+}
+
+@media (max-width: @screen-xs-max) {
+    .visible-xs {
+        .responsive-visibility();
+    }
+
+    .hidden-xs {
+        .responsive-invisibility();
+    }
+}
+
+// Small grid
+@media (min-width: @screen-sm-min) {
+    .make-grid-columns-float(sm);
+    .make-grid(@grid-columns, sm, width);
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .visible-sm {
+        .responsive-visibility();
+    }
+
+    .hidden-sm {
+        .responsive-invisibility();
+    }
+}
+
+
+
+
+
+// Medium grid
+@media (min-width: @screen-md-min) {
+    .make-grid-columns-float(md);
+    .make-grid(@grid-columns, md, width);
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .visible-md {
+        .responsive-visibility();
+    }
+
+    .hidden-md {
+        .responsive-invisibility();
+    }
+}
+
+//Large grid
+@media (min-width: @screen-lg-min) {
+    .make-grid-columns-float(lg);
+    .make-grid(@grid-columns, lg, width);
+
+    .visible-lg {
+        .responsive-visibility();
+    }
+
+    .hidden-lg {
+        .responsive-invisibility();
+    }
+}

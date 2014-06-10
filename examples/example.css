@@ -1,0 +1,41 @@
+﻿.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h4 {
+    margin-top: 25px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+    .row .row {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+.col {
+    padding: 5px;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+}
+
+[class*="xs-"] {
+    background-color:#ff6a00
+}
+[class*="sm-"] {
+    background-color:#ffd800
+}
+[class*="md-"] {
+    background-color:#0094ff
+}
+[class*="lg-"] {
+    background-color:#808080;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
