@@ -77,7 +77,7 @@ Most of these will be excluded because they are too closely tied to the overall 
 * Stylized buttons
 * Glyphicons
  * I'm not a fan of custom fonts due to performance issues.  
-* Helper comonents liek nav bars, drop downs, or jumbotrons.
+* Helper comonents like nav bars, drop downs, or jumbotrons.
 * Javascript components or widgets
  * If I decide to do any of these. They will be designed to be extremely minimal and package based.
 
