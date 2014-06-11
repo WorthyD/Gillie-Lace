@@ -20,7 +20,7 @@ Our grid system is based off of Bootstrap's.  It should be easy to understand if
 No special rules around this outside of implementing a clear fix around it.
 ###.col
 This is where we deviate from bootstrap. Any and all columns will require a `col` class.  It sets the positioning and min height of all columns.
-###.xs-#, .sm-#, .md-#, & .lg-#
+###.xs-#, .sm-#, .md-#, & .lg-# 
 Column classes are very similarly based off of Bootstrap's. They contain the same width behaviors.  How does our differ in a code comparison?
 
 ```
@@ -85,10 +85,10 @@ Most of these will be excluded because they are too closely tied to the over all
 Comming Soon. I need to perform more tests.
 
 ##Authors
-__Daniel Worthy__
-Website: <a href="http://worthyd.com">Worthyd.com</a>
-Twitter: <a href="https://twitter.com/WorthyD/">@WorthyD</a>
-Github: <a href="https://github.com/WorthyD">WorthyD</a>
+__Daniel Worthy__ <br />
+Website: <a href="http://worthyd.com">Worthyd.com</a><br />
+Twitter: <a href="https://twitter.com/WorthyD/">@WorthyD</a><br />
+Github: <a href="https://github.com/WorthyD">WorthyD</a><br />
 
 ##Copyright and License
 Comming soon.
