@@ -61,7 +61,7 @@ You're probably thinking "Well that's stupid. You are only saving X number of ch
 Straight from Bootstrap.
 
 ###.clear-fix
-Why not?
+Why not?  Yeah, I'll probably remove this soon.
 
 ##Possible future features
 * Column ordering
