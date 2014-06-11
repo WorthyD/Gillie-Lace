@@ -81,8 +81,10 @@ Most of these will be excluded because they are too closely tied to the over all
 * Javascript components or widgets
  * If I decide to do any of these. They will be designed to be extremely minimal and package based.
 
-##Browser support
-Comming Soon. I need to perform more tests.
+##Coming Soon
+* Browser Support
+* Examples
+* Better documentation
 
 ##Authors
 __Daniel Worthy__ <br />
@@ -90,5 +92,3 @@ Website: <a href="http://worthyd.com">Worthyd.com</a><br />
 Twitter: <a href="https://twitter.com/WorthyD/">@WorthyD</a><br />
 Github: <a href="https://github.com/WorthyD">WorthyD</a><br />
 
-##Copyright and License
-Comming soon.
