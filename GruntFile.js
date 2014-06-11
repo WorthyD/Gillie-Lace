@@ -42,7 +42,8 @@ module.exports = function(grunt) {
         },
         files: {
           src: [
-            'dist/css/main.css'
+            'dist/css/main.css',
+            'dist/css/main.min.css'
             
           ]
         }
@@ -77,6 +78,6 @@ module.exports = function(grunt) {
   //grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Default task(s).
-  grunt.registerTask('default', ['csslint', 'usebanner', 'less']);
+	grunt.registerTask('default', ['less', 'usebanner', 'csslint']);
 
 };
