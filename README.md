@@ -55,7 +55,7 @@ Column classes are very similarly based off of Bootstrap's. They contain the sam
     </div>
 </div>
 ```
-You're probably thinking. Well that's stupid. You are only saving X number of characters. My response: Every little bit helps.  It's called a micro optimized framework.  I save bits when I can.
+You're probably thinking "Well that's stupid. You are only saving X number of characters." My response: Every little bit helps.  It's called a micro optimized framework.  I save bits when I can.
 
 ###.visible-** & .hidden-**
 Straight from Bootstrap.
