@@ -8,7 +8,7 @@ especially those used for Scottish country dancing.
 
 Gillie-Lace is designed to be a micro-framework alternative to <a href="http://getbootstrap.com">Bootstrap</a>. It is designed to provide the absolute essentials to start a responsive website. Don't be fooled, behind the 4K minified css is 100K of kilts, bagpipes and bad@$$ery.  
 
-This framework's goal is not create a complete website experience. It is to provide the absolute core needs of a responsive grid.
+This framework's goal is to not create a complete website experience. It is to provide the absolute core needs of a responsive grid.
 
 #CSS
 ##Box-Sizing Model
@@ -21,7 +21,7 @@ No special rules around this outside of implementing a clear fix around it.
 ###.col
 This is where we deviate from bootstrap. Any and all columns will require a `col` class.  It sets the positioning and min height of all columns.
 ###.xs-#, .sm-#, .md-#, & .lg-# 
-Column classes are very similarly based off of Bootstrap's. They contain the same width behaviors.  How does our differ in a code comparison?
+Column classes are very similarly based off of Bootstrap's. They contain the same width behaviors.  How does our framework differ in a code comparison?
 
 ```
 <!--Bootstrap-->
@@ -70,7 +70,7 @@ Why not?
  * _Same as above feature_
 
 ##What Gillie Lace does not have, and probably wont
-Most of these will be excluded because they are too closely tied to the over all theme of a website and can vary way too much.
+Most of these will be excluded because they are too closely tied to the overall theme of a website and can vary way too much.
 * Typography
 * Table Themes
 * Stylized inputs
